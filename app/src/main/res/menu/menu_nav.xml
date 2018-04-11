@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeMiniBtn"
+        android:enabled="true"
+        android:title=" "
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/suggestedTourMiniBtn"
+        android:enabled="true"
+        android:title=" "
+        android:icon="@drawable/ic_map"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/customTourMiniBtn"
+        android:enabled="true"
+        android:title=" "
+        android:icon="@drawable/ic_timeline"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/personMiniBtn"
+        android:enabled="true"
+        android:title=" "
+        android:icon="@drawable/ic_person"
+        app:showAsAction="ifRoom"
+        />
+</menu>
